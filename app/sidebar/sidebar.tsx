@@ -23,7 +23,7 @@ export default function Sidebar() {
             <nav>
                 <ul>
                     <li>
-                        <Link href="/">
+                        <Link href="/dashboard">
                             <Image src={dashboardLogo} alt="Dashboard Logo" className='img-logo' />
                             Dashboard
                         </Link>
