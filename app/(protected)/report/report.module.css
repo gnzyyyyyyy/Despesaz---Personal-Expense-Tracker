@@ -1,0 +1,80 @@
+.container {
+    padding: 40px;
+    background-color: #e0f0f5;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.downloadBtn {
+    background-color: #1e6f9f;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.downloadBtn:hover {
+    background-color: #155d85;
+}
+
+.summaryGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.income {
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+.expense {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.chartsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.chartCard {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .chartsGrid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -35,13 +35,13 @@ export default function Sidebar() {
                         </Link>
                     </li>
                     <li>
-                        <Link href="/budget-planning">
+                        <Link href="/budgetPlanning">
                             <Image src={budgetPlanningLogo} alt="Budget Planning Logo" className='img-logo' />
                             Budget Planning
                         </Link>
                     </li>
                     <li>
-                        <Link href="/reports">
+                        <Link href="/report">
                             <Image src={reportsLogo} alt="Reports Logo" className='img-logo' />
                             Reports
                         </Link>
